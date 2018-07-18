@@ -9,9 +9,19 @@ def sum_array(numbers)
   sum_array = 0
 
   for num in numbers
-
   sum_array += num
   end
-return sum_array
 
+  return sum_array
+
+end
+
+def find_item(array, item)
+
+  for element in array
+    if element == item
+      return true
+    end
+  end
+      return false
 end
