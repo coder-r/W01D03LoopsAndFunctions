@@ -25,3 +25,8 @@ def find_item(array, item)
   end
       return false
 end
+
+def get_first_key(hash)
+  return hash.keys()[0]
+
+end
